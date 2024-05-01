@@ -1,0 +1,91 @@
+.navbarMain {
+  background-color: #3498db;
+  padding: 20px 0;
+}
+.mainMenu,
+.nevbarText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainMenu {
+  gap: 30px;
+}
+.menuArea ul {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0;
+}
+/* Logo area start  */
+.logoArea a {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Menu area start  */
+.menuArea ul li a {
+  border: 0px;
+  cursor: pointer;
+  display: block;
+  outline: 0px;
+  padding: 6px 12px;
+  position: relative;
+  font-size: 15px;
+  background: transparent;
+  transition: all 0.2s ease-in-out 0s;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fff;
+  white-space: nowrap;
+}
+.menuArea ul li a svg {
+  font-size: 24px;
+}
+.menuArea ul li a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #fff;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.menuArea ul li a:hover:after {
+  transform: scaleX(1);
+}
+.menuArea ul li ul {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  background-color: #3498db;
+  top: 42px;
+  padding: 20px;
+  border-radius: 12px;
+}
+.menuArea ul li ul li a {
+  display: block;
+}
+.loginRegisterArea a {
+  display: inline-block;
+  color: #fff;
+  background: transparent;
+  border-color: #fff;
+  padding: 6px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  min-width: 164px;
+  text-align: center;
+  height: 40px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+.loginRegisterArea a:hover {
+  background: #fff;
+  color: #3498db;
+  border: 1px solid #fff;
+}
+.loginRegisterArea a.active {
+  border: 1px solid #fff;
+}

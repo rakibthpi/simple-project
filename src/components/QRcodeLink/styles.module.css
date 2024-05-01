@@ -1,0 +1,61 @@
+/* Main area start  */
+.qrCodeMain {
+  padding: 20px 0;
+}
+
+.qrCodeContent {
+  display: flex;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.qrcodeLeft {
+  flex: 0 0 65%;
+}
+.qrcodeRight {
+  flex: 0 0 35%;
+}
+
+/* Url Main area start  */
+.qrcodeLeftTop {
+  padding: 24px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #eaeaec;
+}
+.qrcodeBtn {
+  border: none;
+  color: #220e27;
+  width: 100%;
+  border: 2px solid #eaeaec;
+  height: 52px;
+  display: flex;
+  padding: 10px;
+  font-size: 13px;
+  background: #ffffff;
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  font-weight: 700;
+  line-height: 22px;
+  border-radius: 8px;
+  padding-right: 5px;
+  gap: 10px;
+}
+.qrIcon {
+  display: flex;
+  background: #f7f7f7;
+  align-items: center;
+  margin-right: 12px;
+  border-radius: 4px;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+.qrIcon svg {
+  font-size: 22px;
+}
+
+/* Bottom area start  */
+.leftQRcodeBottom {
+  padding: 24px;
+  background-color: #fff;
+}
