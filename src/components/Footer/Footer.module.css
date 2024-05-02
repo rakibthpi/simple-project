@@ -1,0 +1,110 @@
+.footerMain {
+  position: relative;
+  background: linear-gradient(
+    0deg,
+    rgb(34, 14, 39) 15.06%,
+    rgb(29, 89, 249) 100%
+  );
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 44px;
+}
+/* Footer Main area start  */
+
+.footerTop h1 {
+  font-size: 56px;
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 600;
+  color: #fff;
+  padding: 4px 0px;
+  line-height: 68px;
+}
+.footerTop a {
+  padding: 10px 40px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 240px;
+  display: inline-block;
+  background: transparent;
+  border: 2px solid rgb(255, 255, 255);
+  max-width: 280px;
+  height: 56px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 52px auto;
+  position: relative;
+}
+
+.footerTop a:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -5px;
+  left: -5px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transition: all 0.25s;
+}
+.footerTop a:hover:before,
+.footerTop a:hover:after {
+  width: 104%;
+  height: 110%;
+}
+.footerTop a:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -5px;
+  right: -5px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: all 0.3s;
+}
+
+.footerTopImg {
+  width: 100%;
+}
+
+/* bottom top start  */
+.footerLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerLogoArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footerLogoArea img {
+  width: 130px;
+  height: 30px;
+}
+.footerLogoArea p {
+  max-width: 199px;
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  margin: 0;
+}
+
+/* Footer bottom area start  */
+
+.footerBottomRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerBottomRight p {
+  color: #fff;
+}

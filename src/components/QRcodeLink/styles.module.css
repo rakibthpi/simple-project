@@ -9,10 +9,11 @@
   border-radius: 12px;
 }
 .qrcodeLeft {
-  flex: 0 0 65%;
+  flex: 0 0 calc(100% - 290px);
 }
 .qrcodeRight {
-  flex: 0 0 35%;
+  max-width: 290px;
+  width: 100%;
 }
 
 /* Url Main area start  */
@@ -39,6 +40,10 @@
   border-radius: 8px;
   padding-right: 5px;
   gap: 10px;
+  transition: 0.3s;
+}
+.qrcodeBtn:hover {
+  border: 2px solid #3498db !important;
 }
 .qrIcon {
   display: flex;
@@ -50,8 +55,25 @@
   width: 36px;
   height: 36px;
 }
-.qrIcon svg {
-  font-size: 22px;
+.qrIcon img {
+  max-width: 20px;
+  max-height: 20px;
+  height: auto;
+  width: auto;
+}
+.seeMore {
+  color: #1d59f9;
+  width: 170px;
+  border: 2px solid #eaeaec;
+  height: 52px;
+  display: flex;
+  font-size: 13px;
+  background: #ffffff;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 8px;
+  justify-content: center;
 }
 
 /* Bottom area start  */
