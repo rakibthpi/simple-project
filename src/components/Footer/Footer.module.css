@@ -3,6 +3,7 @@
   background: linear-gradient(
     0deg,
     rgb(34, 14, 39) 15.06%,
+    rgb(34, 14, 39) 40.06%,
     rgb(29, 89, 249) 100%
   );
   text-align: center;
@@ -169,6 +170,18 @@
   display: flex;
   align-items: center;
   gap: 25px;
+}
+.footerBottomRight button {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  padding: 4px 0px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
 }
 .footerBottomRight a {
   display: inline-block;
